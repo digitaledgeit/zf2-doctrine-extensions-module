@@ -12,7 +12,7 @@ trait IdentifiableTrait {
 	/**
 	 * @ORM\Id
 	 * @ORM\Column(type="integer")
-	 * @GeneratedValue(strategy="AUTO")
+	 * @ORM\GeneratedValue(strategy="AUTO")
 	 */
 	protected $id;
 
